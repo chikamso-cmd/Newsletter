@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <!-- custom style for some contents -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootsrap link -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\css\bootstrap.min.css" />
+     <script defer src="index.js"></script>
+  </head>
+  <body class="bg-dark">
+    <section class="container-cont bg-white mt-4 mb-4">
+      <div class="clearfix p-2 clear container-fluid">
+        <div class="col-md-6 float-md-end ms-md-3 image rounded-1">
+          <img
+            src="images/email-4284157_1280.png"
+            class="w-100"
+            alt="Girl sitting down"
+          />
+        </div>
+
+        <!-- form-content to the left -->
+        <div class="text p-3 col-md-6">
+          <h1 class="text-center mt-5 fw-bold mb-3">Stay updated!</h1>
+          <p class="lead fs-5 text-left p-2 mx-sm-3">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="lead fs-5 p-2 mx-sm-4">
+            <div class="lists d-flex mb-2">
+              <img src="images/icon.png" alt="" />
+              <li>Product discovery and building what matters</li>
+            </div>
+
+            <div class="lists d-flex mb-2">
+              <img src="images/icon.png" alt="" />
+              <li>Measuring to ensure updates are a success</li>
+            </div>
+
+            <div class="lists d-flex">
+              <img src="images/icon.png" alt="" />
+              <li>And much more!</li>
+            </div>
+          </ul>
+
+          <form class="d-block p-3" id="form">
+            <div class="input-control">
+              <label for="email" class="lead text mt-4 mb-1 form-text"
+                >Email address</label
+              >
+              <div id="emailerror" role="alert" aria-hidden="true"> </div>
+
+              <div id="success" role="alert" aria-hidden="true"> </div>
+              <input
+                class=" form-control p-3" id="email"
+                type="text"
+                placeholder="Email"
+                aria-label="email"
+              />
+              
+            </div>
+            <button
+              class="fw-bold lead fs-6 rounded-3 p-3 w-100 mt-4 subscribe" id="subscribe"
+              type="submit"
+            >
+              Subscribe to monthly news letter
+            </button>
+          </form>
+        </div>
+      </div>
+      <input type="radio" name="" id="" class="form-range">
+      <!-- <a href="success.html">successful</a> -->
+    </section>
+
+    <!-- bootsrap javascript -->
+    <script src="bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
+  </body>
+</html>
